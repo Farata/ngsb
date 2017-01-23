@@ -1,0 +1,22 @@
+{
+  "name": "@farata/ngsb",
+  "version": "0.1.0",
+  "main": "./bundles/material.umd.js",
+  "module": "./index.js",
+  "typings": "./index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/farata/ngsb.git"
+  },
+  "keywords": [
+    "angular",
+    "components"
+  ],
+  "homepage": "https://github.com/farata/ngsb#readme",
+  "peerDependencies": {
+    "@angular/core": "^2.2.0",
+    "@angular/common": "^2.2.0",
+    "@angular/http": "^2.2.0",
+    "@angular/material": "^2.0.0-beta.1"
+  }
+}
