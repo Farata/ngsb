@@ -7,7 +7,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-import { Component, NgModule } from '@angular/core';
+import { Component, NgModule, Input } from '@angular/core';
 export var Placeholder = (function () {
     function Placeholder() {
     }
@@ -23,6 +23,10 @@ export var Placeholder = (function () {
 export var PlaceholderModule = (function () {
     function PlaceholderModule() {
     }
+    __decorate([
+        Input(), 
+        __metadata('design:type', String)
+    ], PlaceholderModule.prototype, "title", void 0);
     PlaceholderModule = __decorate([
         NgModule({
             declarations: [Placeholder],

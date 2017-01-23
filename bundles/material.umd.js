@@ -28,6 +28,10 @@ var Placeholder = (function () {
 var PlaceholderModule = (function () {
     function PlaceholderModule() {
     }
+    __decorate$1([
+        _angular_core.Input(), 
+        __metadata$1('design:type', String)
+    ], PlaceholderModule.prototype, "title", void 0);
     PlaceholderModule = __decorate$1([
         _angular_core.NgModule({
             declarations: [Placeholder],
